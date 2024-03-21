@@ -21,3 +21,6 @@ Route::get('/', function () {
 });
 
 Route::resource('eloquent', UserControllerEloquent::class)->names('eloquent');
+Route::get('/hello', function(){
+    return 'hello';
+});
