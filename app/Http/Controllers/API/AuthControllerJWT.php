@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\API;
 
-
+use App\Http\Controllers\AuthControllerJWT;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 use App\Traits\ResponseApi;
